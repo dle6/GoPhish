@@ -23,3 +23,10 @@ This repository contains custom HTML email templates designed for phishing aware
 5. Create a new template and paste the HTML content from the files.
 6. Host the static resources (images, logos) on a public server or adjust the paths to match your setup.
 7. Test and deploy the campaign.
+
+
+## **Screenshots**
+## Example Phishing Email Template
+Here's how the phishing email template looks:
+
+![Phishing Email Template](Screenshots/Google Email page Screenshot.png)

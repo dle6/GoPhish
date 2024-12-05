@@ -29,4 +29,4 @@ This repository contains custom HTML email templates designed for phishing aware
 ## Example Phishing Email Template
 Here's how the phishing email template looks:
 
-![Phishing Email Template](Screenshots/Google Email page Screenshot.png)
+![Phishing Email Template]([Screenshots/Google Email page Screenshot.png](https://github.com/dle6/GoPhish/Screenshots/Google-Email-template.png)

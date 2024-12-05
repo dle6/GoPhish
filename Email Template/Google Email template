@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Google Account Security Alert</title>
+	<style type="text/css">body {
+            font-family: Roboto, Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header img {
+            width: 150px;
+        }
+
+        h1 {
+            font-size: 22px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        p {
+            font-size: 15px;
+            color: #444;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .btn-container {
+            text-align: center; /* Centers the button */
+            margin: 20px 0;
+        }
+
+        .btn {
+            background-color: #4285F4;
+            color: white;
+            text-decoration: none;
+            padding: 12px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            font-weight: bold;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            background-color: #3367d6;
+        }
+
+        .info {
+            font-size: 13px;
+            color: #666;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #999;
+            margin-top: 30px;
+        }
+
+        .footer-links {
+            color: #4285F4;
+            text-decoration: none;
+        }
+
+        .footer-links:hover {
+            text-decoration: underline;
+        }
+
+        ol {
+            margin-left: 20px;
+        }
+
+        ol li {
+            margin-bottom: 10px;
+        }
+	</style>
+</head>
+<body>
+<div class="container">
+<header><img alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" /></header>
+
+<h1>Security Alert: Sign-in Attempt Blocked</h1>
+
+<p>We noticed a suspicious attempt to sign in to your Google Account. To protect your account, we have temporarily blocked access.</p>
+
+<p>Please verify your account to ensure it remains secure.</p>
+
+<ol>
+	<li><strong>Sign in to your account:</strong> Click the button below to review and secure your account.</li>
+</ol>
+<!-- Button Container -->
+
+<div class="btn-container"><a class="btn" href="{{.URL}}">Verify Account</a></div>
+
+<p>If you did not attempt to sign in, we strongly recommend reviewing your recent account activity and updating your password.</p>
+
+<div class="info">
+<p>This is an automated message. Please do not reply.</p>
+</div>
+
+<footer>&copy; 2024 Google LLC. 1600 Amphitheatre Parkway, Mountain View, CA 94043<br />
+<a class="footer-links" href="https://support.google.com/">Help Center</a> | <a class="footer-links" href="https://www.google.com/policies/privacy/">Privacy Policy</a></footer>
+</div>
+
+<p>{{.Tracker}}</p>
+</body>
+</html>

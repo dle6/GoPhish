@@ -16,4 +16,4 @@ This repository contains custom HTML email templates designed for phishing aware
 ## **Usage Instructions**
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/dle6
+   git clone https://github.com/dle6/GoPhish.git

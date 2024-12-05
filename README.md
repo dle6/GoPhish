@@ -25,8 +25,8 @@ This repository contains custom HTML email templates designed for phishing aware
 7. Test and deploy the campaign.
 
 
-## **Screenshots**
-## Example Phishing Email Template
-Here's how the phishing email template looks:
+## Example Template: Google Email
 
-![Phishing Email Template]([Screenshots/Google Email page Screenshot.png](https://github.com/dle6/GoPhish/Screenshots/Google-Email-template.png)
+Below is an example of a phishing email template that mimics a Google notification email:
+
+![Google Email Template](Screenshots/Google-Email-template.png)

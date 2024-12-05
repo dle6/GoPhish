@@ -17,3 +17,9 @@ This repository contains custom HTML email templates designed for phishing aware
 1. Clone the repository to your local machine:
    ```bash
    git clone https://github.com/dle6/GoPhish.git
+2. Edit the HTML templates to fit your organization’s branding or specific scenarios.
+3. Upload the templates to GoPhish:
+4. Navigate to "Email Templates" in the GoPhish dashboard.
+5. Create a new template and paste the HTML content from the files.
+6. Host the static resources (images, logos) on a public server or adjust the paths to match your setup.
+7. Test and deploy the campaign.

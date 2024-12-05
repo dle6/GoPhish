@@ -27,6 +27,7 @@ This repository contains custom HTML email templates designed for phishing aware
 
 ## Example Template: Google Email
 
-Below is an example of a phishing email template that mimics a Google notification email:
+Below is an example of a phishing email template and Google sign-in that mimics a Google notification email:
 
 ![Google Email Template](Screenshots/Google-Email-template.png)
+![Google Landing Template](Screenshots/Google-Sign-in-Screenshot.png)
